@@ -1,0 +1,317 @@
+/* RETIRANDO PREFIXOS */
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+/* FONTE E FUNDO */
+
+body{
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	background: #fff url(imagens/fundo.png) repeat-x;
+
+}
+
+/* TOPO */
+
+#container{
+	width: 750px;
+	margin: 0 auto;
+}
+
+#topo{
+	height: 150px;
+	background: url(imagens/detalhe-topo.png) no-repeat right top;
+	padding-top: 25px;
+}
+
+.logo{
+	width: 152px;
+	height: 66px;
+	background: url(imagens/logo.png) no-repeat center;
+	text-indent: -3000px; 
+}
+
+/* NAVBAR HORIZONTAL*/
+
+a:link, a:visited{
+	color: #0A2463;
+	padding: 2px;
+}
+
+a:hover{
+	color: #0A2463;
+}
+
+ul{
+	margin:0;
+	padding: 0;
+	list-style: none;
+}
+
+#topo ul{
+	background: #247BA0;
+	margin-top: 30px;
+	float: left;
+	border-radius: 30px ;
+}
+
+#topo ul li{
+	float: left;
+}
+
+#topo ul a{
+	font-size: 0.9em;
+	display: block;
+	padding: 0.5em 1.5em;
+	line-height: 2.1em;
+	text-decoration: none;
+	color: #fff;
+	
+}
+
+#topo ul .primeiro a{
+	background: none;
+}
+
+#topo ul a:hover{
+	color: #0A2463;
+
+}
+
+body.home #navegacao a#home,
+body.brasil #navegacao a#brasil,
+body.internacional #navegacao a#internacional,
+body.fotos #navegacao a#fotos
+{
+	color: #fff;
+	background: #00C2D1;
+	cursor: text;
+	border-radius: 30px ;
+
+}
+
+#conteudo{
+	background: #f5f5f5;
+	margin-top: 60px;
+
+}
+
+#lateral{
+	width: 180px;
+	float: left;
+	margin: 0 0 20px -750px;
+
+}
+
+#primario{
+	width: 270px;
+	float: left;
+	margin:0 0 20px 195px;
+}
+
+#duas-colunas #primario{
+	width: 555px;
+
+	
+}
+
+
+#uma-coluna #primario{
+	width: 750px;
+	margin:0 0 20px 0;
+}
+
+
+
+#secundario{
+	width: 270px;
+	float: left;
+	margin: 0 0 20px 15px;
+}
+
+
+
+/* CAIXA*/
+
+.caixa{
+	margin: 10px 0;
+	padding: 5px;
+
+}
+
+h2{
+	font-size: 1em;
+	background: #247BA0;
+	color: #fff;
+	padding: 5px;
+	padding-left: 20px;
+	border-radius:20px;
+
+}
+
+h2:hover{
+	font-size: 1em;
+	background: #247BA0;
+	color: #0A2463;
+	padding: 5px;
+	padding-left: 20px;
+	border-radius:20px;
+
+}
+
+.caixa-conteudo{
+	background: #fff;
+	padding: 5px;
+	margin-top:5px;
+}
+
+.caixa-conteudo a{
+	text-decoration: none;
+	color: #ff785a;
+}
+
+
+/* format menu lateral*/
+
+#lateral ul a{
+	font-size: 0.9em;
+	padding: 3px;
+	display: block;
+	line-height: 30px;
+	color: #000;
+	text-decoration: none;
+	border-bottom: 1px solid #f3f3f3;
+	border-radius: 20px;
+}
+
+#lateral ul  a:hover{
+	color: #000;
+	background: #ffd8cf url(imagens/marcador.png) no-repeat left center;
+	padding-left: 20px;
+}
+/* format forms*/
+label{
+	display: block;
+	cursor: pointer;
+}
+
+input{
+	font-size: 0.9em;
+	background-color: #ffd8cf;
+	padding: 5px;
+	width: 125px;
+	margin-top: 5px;
+	border-radius: 30px;
+	border:0px;
+}
+
+input.submit{
+	width: 80px;
+	color: #fff;
+	background-color: #0A2463;
+	padding: 5px;
+	margin-top:5px;
+	border-radius: 30px;
+	border:0px;
+}
+
+/* Formatando imgs*/
+
+/*img{
+	border: 2px solid #dfdfdf;
+ 
+} ideal é uma formatação principal e dps a de baixo .
+ aqui nao precisaria dessa*/
+
+img.img-principal{
+	width: 98%;
+	border-radius: 20px;
+	margin-top: 5px;
+}
+
+/* Format cabeçalhos*/
+
+h3{
+	display: inline;
+	font-size: 0.8em;
+	padding: 3px;
+}
+
+.destaque h3{
+	background: #0A2463;
+	color: #fff;
+	border-radius:30px;
+	padding: 5px;
+	font-size: 0.6em;
+
+
+}
+
+.promo h3{
+	background: #0A2463;
+	color: #fff;
+	border-radius:30px;
+	padding: 5px;
+	font-size: 0.6em;
+}
+	
+}
+
+/* format notícias*/
+#lista-noticias li{
+	padding: 2px;
+	border-bottom: 1px solid #ccc;
+	height: 62px;
+
+}
+
+
+#lista-noticias li a  {
+	text-decoration: none;
+}
+
+#lista-noticias li a h3 {
+	font-size: 0.8em;
+	padding: 0;
+	color: #3e7ab9;
+} 
+
+#lista-noticias li a p {
+	font-size: 0.7em;
+	color: #000;
+	position: relative;
+	float: right;
+	margin-left: 90px;
+
+
+}
+
+#lista-noticias li:hover{
+	background: #ffd8cf;
+	cursor: pointer;
+	border-radius: 20px;
+}
+
+#lista-noticias img{
+border-radius: 10px;
+
+
+}
+
+
+/* RODAPE*/
+
+#container-rodape{
+	background: #294c71;
+	padding: 20px;
+}
+
+
+#rodape{
+	width: 750px;
+	margin: 0 auto;
+	color: #fff;
+}
+
